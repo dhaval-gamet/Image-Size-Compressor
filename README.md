@@ -348,27 +348,3 @@ For support, email: gametidhaval980@gmail.com or create an issue in the GitHub r
 
 *Convert 200KB images to 15KB effortlessly*
 
----
-
-### Instructions for adding your images:
-
-1. **Create a `screenshots` folder** in your project directory
-2. **Upload your 3 images** to this folder with these suggested names:
-   - `main-interface.png` - Main application screenshot
-   - `compression-process.png` - Compression in progress
-   - `results-comparison.png` - Before/after comparison
-
-3. **Replace placeholder URLs** in the README:
-   - Replace `YOUR_USERNAME` with your GitHub username
-   - Replace `YOUR_REPO` with your repository name
-   - Or use relative paths if hosting images in the repo
-
-4. **Commit and push** to GitHub:
-```bash
-git add screenshots/
-git add README.md
-git commit -m "Add application screenshots"
-git push origin main
-```
-
-The images will automatically appear in your README once uploaded to GitHub!
