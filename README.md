@@ -26,6 +26,7 @@ A professional web-based image compression tool built with Flask and Pillow that
 | *Main UI* | *Processing* | *Before/After* |
 
 </div>
+
 ## 🌟 Features
 
 ### Core Functionality
