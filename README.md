@@ -57,11 +57,11 @@ A professional web-based image compression tool built with Flask and Pillow that
 ```bash
 # Clone repository
 git clone https://github.com/dhaval-gamet/Image-Size-Compressor.git
-cd image-compressor
+cd Image-Size-Compressor
 
 # Or create manually
-mkdir image-compressor
-cd image-compressor
+mkdir Image-Size-Compressor
+cd Image-Size-Compressor
 # Copy the Flask app code to app.py
 ```
 
@@ -83,10 +83,10 @@ image-compressor/
 ├── app.py                    # Main Flask application
 ├── README.md                 # This documentation
 ├── requirements.txt          # Python dependencies
-└── screenshots/              # Application screenshots
-    ├── main-interface.png    # Main UI screenshot
-    ├── compression-process.png # Compression in progress
-    └── results-comparison.png # Before/after comparison
+ # Application screenshots
+├── main-interface.png    # Main UI screenshot
+├── compression-process.png # Compression in progress
+└── results-comparison.png # Before/after comparison
 
 ```
 
