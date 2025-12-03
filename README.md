@@ -25,11 +25,11 @@ A professional web-based image compression tool built with Flask and Pillow that
 *Main application interface with upload area*
 
 ### ⚙️ Compression Process
-![Compression Process](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/screenshots/compression-process.png)
+![Compression Process](image2.jpg)
 *Real-time compression with progress indicator*
 
 ### 📊 Results Comparison
-![Results Comparison](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/screenshots/results-comparison.png)
+![Results Comparison](VEDRA.jpg)
 *Side-by-side comparison of original vs compressed image*
 
 </div>
@@ -63,7 +63,7 @@ A professional web-based image compression tool built with Flask and Pillow that
 ### 1. Clone/Setup Project
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/image-compressor.git
+git clone https://github.com/dhaval-gamet/Image-Size-Compressor.git
 cd image-compressor
 
 # Or create manually
@@ -90,10 +90,10 @@ image-compressor/
 ├── app.py                    # Main Flask application
 ├── README.md                 # This documentation
 ├── requirements.txt          # Python dependencies
-├── screenshots/              # Application screenshots
-│   ├── main-interface.png    # Main UI screenshot
-│   ├── compression-process.png # Compression in progress
-│   └── results-comparison.png # Before/after comparison
+└── screenshots/              # Application screenshots
+    ├── main-interface.png    # Main UI screenshot
+    ├── compression-process.png # Compression in progress
+    └── results-comparison.png # Before/after comparison
 
 ```
 
