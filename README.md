@@ -1,3 +1,4 @@
+
 # Image Size Compressor 🖼️
 <div align="center">
 
@@ -9,11 +10,29 @@
 **Convert 200KB images to 15KB while maintaining visual quality**  
 *A professional web-based image compression tool with smart algorithms*
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [API](#-api) • [Deployment](#-deployment) • [Contributing](#-contributing)
+[Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Usage](#-usage) • [API](#-api) • [Deployment](#-deployment) • [Contributing](#-contributing)
 
 </div>
 
 A professional web-based image compression tool built with Flask and Pillow that reduces image sizes from 200KB to 15KB while maintaining visual quality.
+
+## 🖼️ Screenshots
+
+<div align="center">
+
+### 📱 Application Interface
+![Main Interface](image1.jpg)
+*Main application interface with upload area*
+
+### ⚙️ Compression Process
+![Compression Process](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/screenshots/compression-process.png)
+*Real-time compression with progress indicator*
+
+### 📊 Results Comparison
+![Results Comparison](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/screenshots/results-comparison.png)
+*Side-by-side comparison of original vs compressed image*
+
+</div>
 
 ## 🌟 Features
 
@@ -43,10 +62,13 @@ A professional web-based image compression tool built with Flask and Pillow that
 
 ### 1. Clone/Setup Project
 ```bash
-# Create project directory
-mkdir image-compressor
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/image-compressor.git
 cd image-compressor
 
+# Or create manually
+mkdir image-compressor
+cd image-compressor
 # Copy the Flask app code to app.py
 ```
 
@@ -60,7 +82,7 @@ pip install flask pillow
 python app.py
 ```
 
-## 🏗️ Project Structure
+## 📁 Project Structure
 
 ```
 image-compressor/
@@ -68,6 +90,11 @@ image-compressor/
 ├── app.py                    # Main Flask application
 ├── README.md                 # This documentation
 ├── requirements.txt          # Python dependencies
+├── screenshots/              # Application screenshots
+│   ├── main-interface.png    # Main UI screenshot
+│   ├── compression-process.png # Compression in progress
+│   └── results-comparison.png # Before/after comparison
+
 ```
 
 ## 🔧 Configuration
@@ -115,6 +142,7 @@ PREVIEW_SIZE = 300        # pixels
 ```
 https://image-size-compressor-54nh.onrender.com
 ```
+*Or run locally at: http://localhost:5000*
 
 ### 2. Upload Image
 - Drag & drop image file into the upload area
@@ -181,11 +209,11 @@ def smart_compress_to_target(img, target_kb=15):
 - **Memory Usage**: Minimal (stream-based processing)
 
 ### Supported Image Sizes
-| Original Size | Target Size | Compression Ratio |
-|--------------|-------------|-------------------|
-| 200 KB       | 15 KB       | 13:1              |
-| 100 KB       | 15 KB       | 6.7:1             |
-| 50 KB        | 15 KB       | 3.3:1             |
+| Original Size | Target Size | Compression Ratio | Visual Quality |
+|--------------|-------------|-------------------|----------------|
+| 200 KB       | 15 KB       | 13:1              | Good           |
+| 100 KB       | 15 KB       | 6.7:1             | Very Good      |
+| 50 KB        | 15 KB       | 3.3:1             | Excellent      |
 
 ## 🚀 Deployment
 
@@ -319,10 +347,35 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email:gametidhaval980@gmail.com or create an issue in the GitHub repository.
+For support, email: gametidhaval980@gmail.com or create an issue in the GitHub repository.
 
 ---
 
 **Made with ❤️ using Flask & Pillow**
 
 *Convert 200KB images to 15KB effortlessly*
+
+---
+
+### Instructions for adding your images:
+
+1. **Create a `screenshots` folder** in your project directory
+2. **Upload your 3 images** to this folder with these suggested names:
+   - `main-interface.png` - Main application screenshot
+   - `compression-process.png` - Compression in progress
+   - `results-comparison.png` - Before/after comparison
+
+3. **Replace placeholder URLs** in the README:
+   - Replace `YOUR_USERNAME` with your GitHub username
+   - Replace `YOUR_REPO` with your repository name
+   - Or use relative paths if hosting images in the repo
+
+4. **Commit and push** to GitHub:
+```bash
+git add screenshots/
+git add README.md
+git commit -m "Add application screenshots"
+git push origin main
+```
+
+The images will automatically appear in your README once uploaded to GitHub!
