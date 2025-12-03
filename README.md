@@ -113,7 +113,7 @@ PREVIEW_SIZE = 300        # pixels
 
 ### 1. Access the Web Interface
 ```
-http://localhost:5000
+https://image-size-compressor-54nh.onrender.com
 ```
 
 ### 2. Upload Image
