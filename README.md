@@ -1,4 +1,17 @@
 # Image Size Compressor 🖼️
+<div align="center">
+
+![Flask](https://img.shields.io/badge/Flask-2.3.3-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-10.1.0-FF69B4?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+**Convert 200KB images to 15KB while maintaining visual quality**  
+*A professional web-based image compression tool with smart algorithms*
+
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [API](#-api) • [Deployment](#-deployment) • [Contributing](#-contributing)
+
+</div>
 
 A professional web-based image compression tool built with Flask and Pillow that reduces image sizes from 200KB to 15KB while maintaining visual quality.
 
