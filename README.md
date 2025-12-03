@@ -20,20 +20,12 @@ A professional web-based image compression tool built with Flask and Pillow that
 
 <div align="center">
 
-### 📱 Application Interface
-![Main Interface](image1.jpg)
-*Main application interface with upload area*
-
-### ⚙️ Compression Process
-![Compression Process](image2.jpg)
-*Real-time compression with progress indicator*
-
-### 📊 Results Comparison
-![Results Comparison](VEDRA.jpg)
-*Side-by-side comparison of original vs compressed image*
+| Application Interface | Compression Process | Results Comparison |
+|:---------------------:|:-------------------:|:------------------:|
+| <img src="image1.jpg" alt="Main Interface" width="300"> | <img src="image2.jpg" alt="Compression Process" width="300"> | <img src="VEDRA.jpg" alt="Results Comparison" width="300"> |
+| *Main UI* | *Processing* | *Before/After* |
 
 </div>
-
 ## 🌟 Features
 
 ### Core Functionality
